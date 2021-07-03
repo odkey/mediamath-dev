@@ -5,3 +5,33 @@ h3>span {
 .mt-m24 {
   margin-top: -24px;
 }
+
+.footer__container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60% !important;
+  min-width: 650px;
+}
+
+.footer__row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.footer__label {
+  width: 180px;
+  text-align: center;
+}
+
+.footer__label>span {
+  font-weight: bold;
+}
+
+.footer__content {
+  flex: auto;
+}
+
+
+.footer__row:last-child {
+  margin-bottom: 0;
+}

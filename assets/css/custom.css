@@ -2,7 +2,7 @@ h3>span {
   font-weight: 700;
 }
 
-.mt-m24 {
+.mt-24 {
   margin-top: -24px;
 }
 
@@ -34,4 +34,42 @@ h3>span {
 
 .footer__row:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__label {
+    font-size: 12px;
+  }
+
+  .footer__content {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer__container {
+    width: 90% !important;
+    min-width: unset !important;
+  }
+
+  .footer__row {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .footer__label {
+    width: 100px;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .footer__content {
+    flex: auto;
+    font-size: 12px;
+  }
+
+  .sp-mt-12 {
+    display: inline-block;
+    margin-top: 12px;
+  }
 }

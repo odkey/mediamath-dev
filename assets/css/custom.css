@@ -46,6 +46,12 @@ h3>span {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .lt-992-only {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .footer__container {
     width: 90% !important;

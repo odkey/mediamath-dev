@@ -2,8 +2,19 @@ h3>span {
   font-weight: 700;
 }
 
+.mt-16 {
+  display: inline-block;
+  margin-top: 16px;
+}
+
 .mt-24 {
-  margin-top: -24px;
+  display: inline-block;
+  margin-top: 24px;
+}
+
+.mt-36 {
+  display: inline-block;
+  margin-top: 36px;
 }
 
 .footer__container {
